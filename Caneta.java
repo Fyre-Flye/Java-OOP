@@ -1,16 +1,38 @@
 public class Caneta {
     public String modelo;
-    public String cor;
     private float ponta;
-    protected int carga;
-    protected boolean tampada;
+    private String cor;
+    private int carga;
+    private boolean tampada;
+
+    public Caneta(String m, String c, float p) { // metodo construtor
+        this.modelo = m;
+        this.cor = c;
+        this.ponta = p;
+    }
 
     public void status() {
-        System.out.printf("Modelo: "+ this.modelo);
-        System.out.println("Uma caneta " + this.cor);
-        System.out.println("Ponta: " + this.ponta);
-        System.out.println("Carga: "+ this.carga);
-        System.out.println("Esta tampada? "+ this.tampada);
+        System.out.println("SOBRE A CANETA: ");
+        System.out.println("Modelo: "+this.getModelo());
+        System.out.println("Ponta: "+this.getPonta());
+        System.out.println("Cor: "+this.cor);
+        System.out.println("Tampada: "+this.tampada);
+    }
+
+    public String getModelo() {
+        return this.modelo;
+    }
+
+    public void setModelo(String m) {
+        this.modelo = m;
+    }
+
+    public float getPonta() {
+        return this.ponta;
+    }
+
+    public void setPonta(float p) {
+        this.ponta = p;
     }
 
     public void rabiscar () {
