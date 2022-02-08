@@ -1,5 +1,3 @@
-package UltraEmojiCombat.src;
-
 public class Lutador {
     // Atributos
     private String nome, nacionalidade, categoria;
@@ -17,7 +15,7 @@ public class Lutador {
         System.out.println(this.getVitorias()+" Vitórias ");
         System.out.println(this.getDerrotas()+" Derotas e");
         System.out.println(this.getEmpates()+" Empates");
-
+        
     }
     
     public void status() {
@@ -74,7 +72,7 @@ public class Lutador {
     }
     
     //Metodos espeicais
-    
+     
     public Lutador(String no, String na, int id, int vi, int de, int em, float al,
     float pe) {
         this.nome = no;
