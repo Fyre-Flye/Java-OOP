@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "exercicios_java_poo/exercicios_aula_9/src",
         "aula08",
-        "ProjetoPessoas/src"
+        "ProjetoPessoas/src",
+        "aula_011/src"
     ]
 }
