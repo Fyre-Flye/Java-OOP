@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "exercicios_java_poo/exercicios_aula_9/src",
         "aula08",
-        "exercicios_java_poo/exercicios_aula_9/src"
+        "ProjetoPessoas/src"
     ]
 }
