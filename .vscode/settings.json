@@ -1,8 +1,11 @@
 {
     "java.project.sourcePaths": [
         "exercicios_java_poo/exercicios_aula_9/src",
+        "aula_011/src",
         "aula08",
         "ProjetoPessoas/src",
-        "aula_011/src"
+        "Aula13/src",
+        "Aula12/src",
+        "ProjetoYoutube/src"
     ]
 }
